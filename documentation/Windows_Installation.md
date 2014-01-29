@@ -3,16 +3,17 @@ Windows Installation
 
 ### Install Cygwin ##
 Cygwin is a large collection of GNU and other tools which provide Linux distribution-like functionality for Windows. 
+
 Install [Cygwin](http://cygwin.com/install.html) to get a Linux feel on Windows.
 
 ### Update Java ##
-Install the [latest Java](http://java.com/en/download/index.jsp).
+Install the [latest Java](http://java.com/en/download/index.jsp). This guide was written using Java Version 7 Update 51.
 
 ### Install JDK ##
-Install the [latest JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Install the [latest JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html). This guide was written using JDK 7u51.
 
 ### Install Ruby ##
-Install [latest Ruby for Windows](http://rubyinstaller.org/).
+Install [latest Ruby for Windows](http://rubyinstaller.org/). This guide was written using Ruby 2.0.0-p353.
 
 ### Install Git ##
 Install [Git for Windows](http://git-scm.com/download/win)

@@ -7,7 +7,7 @@ Install the [latest Homebrew](http://brew.sh/) on your system.
     ruby -e "$(curl –fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
 ### Install Ruby ##
-Install [latest ruby 2.0.0](https://www.ruby-lang.org/en/downloads/) using RVM (“Ruby Version Manager”).
+Install [latest ruby 2.0.0](https://www.ruby-lang.org/en/downloads/) using RVM (“Ruby Version Manager”). This guide was written using Ruby 2.0.0-p353.
 
     \curl -L https://get.rvm.io | bash -s stable --ruby
 
