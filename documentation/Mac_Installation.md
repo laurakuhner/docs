@@ -76,9 +76,9 @@ For more detailed information about Calabash IOS installation, see the [installa
 ### Running calabash-ios ##
 Launch calabash-ios console
 
-    calabash-ios console <my.app>
+    export APP_BUNDLE_PATH=<my.app>; calabash-ios console
 
-Launch calabash-android on device:
+Launch calabash-ios on device:
 
-    cucumber <my.app>
+    export APP_BUNDLE_PATH=<my.app>; cucumber 
 
