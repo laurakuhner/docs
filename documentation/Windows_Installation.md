@@ -26,9 +26,6 @@ Install [Git for Windows](http://git-scm.com/download/win)
 ### Install Android Studio ##
 Install the [latest Android Studio for Windows](http://developer.android.com/sdk/installing/studio.html) on your system.
 
-Known issue: On some Windows systems, the launcher script does not find where Java is installed. If you encounter this problem, you need to set an environment variable indicating the correct location.
-Select Start menu > Computer > System Properties > Advanced System Properties. Then open Advanced tab > Environment Variables and add a new system variable JAVA_HOME that points to your JDK folder, for example C:\Program Files\Java\jdk1.7.0_21.
-
 >*Known issue:* On some Windows systems, the launcher script does not find where Java is installed.
 
 >If you encounter this problem, you need to set an environment variable indicating the correct location. Select **Start menu > Computer > System Properties > Advanced System Properties**. Then open **Advanced tab > Environment Variables** and add a new system variable **JAVA_HOME** that points to your JDK folder, for example C:\Program Files\Java\jdk1.7.0_21. 
