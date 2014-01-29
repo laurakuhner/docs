@@ -2,6 +2,7 @@ Windows Installation
 ================
 
 ### Install Cygwin ##
+Cygwin is a large collection of GNU and other tools which provide Linux distribution-like functionality for Windows. 
 Install [Cygwin](http://cygwin.com/install.html) to get a Linux feel on Windows.
 
 ### Update Java ##
@@ -36,9 +37,18 @@ You'll want to install the [latest Android SDK for Windows](https://developer.an
 
         export ANDROID_HOME=~/Android/sdk
 
-### Update bash files ##
-Update `~/.bash_profile` and add Ruby and Android SDK to your path.
-        ......... 
+### Update PATH ##
+Add Ruby and Android SDK to your path. To make these changes permanent, add the **PATH** commands to your .cshrc file (for csh and tcsh), .profile file (for sh and ksh), or .bash_profile file (for bash).
+
+	.bash_profile example:
+	PATH="/cygdrive/c/Ruby200/bin:/cygdrive/c/Android/sdk/platform-tools:${PATH}"
+
+### Add alias commands ##
+Add aliases for `gem` and `calabash-android` commands. To make these changes permanent, add the **alias** commands to your .cshrc file (for csh and tcsh), .profile file (for sh and ksh), or .bash_profile file (for bash).
+
+	.bash_profile example:
+	alias gem='C:/Ruby200/bin/gem'
+	alias calabash-android='C:/Ruby200/bin/calabash-android'
 
 Update `~/.bashrc` and alias `gem` and `calabash-android` commands.
      
