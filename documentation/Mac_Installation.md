@@ -42,3 +42,43 @@ We use [Calabash Android](https://github.com/calabash/calabash-android/blob/mast
 Unless you set the environment variable ANDROID_HOME, the `calabash_android` command will fail with a runtime error.
 Make sure you set ANDROID_HOME environment variable in the **Install Android SDK** section above.
 
+### Running calabash-android ##
+Launch calabash-android console
+
+    calabash-android console <my.apk>
+
+Launch calabash-android on device:
+
+    calabash-android run <my.apk>
+
+>*Known issue:* If you get the following error:
+“No keystores found. Please create one or run calabash-android setup to configure calabash-android to use an existing keystore.”
+>
+>debug.keystore is missing, it can be recreated in ANDROID_HOME with the following command
+>
+>       keytool -genkey -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass \
+>       android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+
+## IOS Installation ###
+
+### Install XCode 5 ##
+Install [XCode 5](https://developer.apple.com/xcode/) on your system.
+
+### Calabash IOS ##
+We use [Calabash IOS](https://github.com/calabash/calabash-ios).
+
+Install calabash-cumcumber
+
+    gem install calabash-cucumber
+
+For more detailed information about Calabash IOS installation, see the [installation instructions](https://github.com/calabash/calabash-ios).
+
+### Running calabash-ios ##
+Launch calabash-ios console
+
+    calabash-ios console <my.app>
+
+Launch calabash-android on device:
+
+    cucumber <my.app>
+
