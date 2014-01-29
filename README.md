@@ -9,9 +9,9 @@ Getting Set Up
 ### Installation ####
 Mobile automation test enviromment can be set up for MAC and Windows. You'll need to follow the installation instructions to get things working on your system.`
 
-[Installation for Mac](https://github.com/laurakuhner/docs/blob/master/documentation/Mac_Installation.md)
+[Installation for Mac](documentation/Mac_Installation.md)
 
-[Installation for Windows](https://github.com/laurakuhner/docs/blob/master/documentation/Windows_Installation.md)
+[Installation for Windows](documentation/Windows_Installation.md)
 
 ### AppThwack ####
 For running tests on multiple devices, we use AppThwack. Please check out the [AppThwack website](https://appthwack.com/) and create an account.
