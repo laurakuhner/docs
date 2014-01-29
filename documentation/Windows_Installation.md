@@ -51,11 +51,6 @@ Add aliases for `gem` and `calabash-android` commands. To make these changes per
 	alias gem='C:/Ruby200/bin/gem'
 	alias calabash-android='C:/Ruby200/bin/calabash-android'
 
-Update `~/.bashrc` and alias `gem` and `calabash-android` commands.
-     
-        alias gem='C:/Ruby200/bin/gem'
-        alias calabash-android='..../calabash-android'
-
 ### Install RSpec ##
 Install [RSpec](http://rspec.info/)
 
