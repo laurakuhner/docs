@@ -13,11 +13,6 @@ Install the [latest JDK](http://www.oracle.com/technetwork/java/javase/downloads
 ### Install Ruby ##
 Install [latest Ruby for Windows](http://rubyinstaller.org/).
 
-### Install RSpec ##
-Install [RSpec](http://rspec.info/)
-
-    gem install rspec
-
 ### Install Git ##
 Install [Git for Windows](http://git-scm.com/download/win)
 
@@ -49,6 +44,11 @@ Update `~/.bashrc` and alias `gem` and `calabash-android` commands.
      
         alias gem='C:/Ruby200/bin/gem'
         alias calabash-android='..../calabash-android'
+
+### Install RSpec ##
+Install [RSpec](http://rspec.info/)
+
+    gem install rspec
 
 ### Calabash Android ##
 We use [Calabash Android](https://github.com/calabash/calabash-android/blob/master/documentation/installation.md). You'll need to follow their [installation instructions](https://github.com/calabash/calabash-android/blob/master/documentation/installation.md) to get things working on your system.
